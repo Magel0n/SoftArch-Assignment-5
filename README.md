@@ -11,7 +11,10 @@ Team:
 For significantly more details, please refer to [this video](https://drive.google.com/file/d/1F_1-SlP0gbZVAPWjwZR_o8tx0nQBwQrM/view?usp=sharing).
 
 ## Here is the list of the used libraries:
-1. tkinter for creating the window of the application
+1. tkinter
+2. GRPC
+3. MongoDB
+4. pymongo
 
   And basic libraries: multiprocessing, time, and threading
 
