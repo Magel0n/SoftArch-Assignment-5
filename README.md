@@ -8,7 +8,7 @@ Team:
 - Suleymanov Timur &nbsp; t.suleymanov@innopolis.university
 
 #### In this project our team has created an application that is capable of reading active and static streams of video format and with &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;pipes-and-filters pattern we change the output to the desired result.
-For significantly more details, please refer to [this video](https://drive.google.com/file/d/1m25qU_UYThHWVS_T-SAfj_AEN88bFfTM/view?usp=drive_link).
+For significantly more details, please refer to [this video](https://drive.google.com/file/d/1F_1-SlP0gbZVAPWjwZR_o8tx0nQBwQrM/view?usp=sharing).
 
 ## Here is the list of the used libraries:
 1. tkinter for creating the window of the application
