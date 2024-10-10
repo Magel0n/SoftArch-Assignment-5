@@ -12,8 +12,6 @@ For significantly more details, please refer to [this video](https://drive.googl
 
 ## Here is the list of the used libraries:
 1. tkinter for creating the window of the application
-2. Pillow for processing individual pictures
-3. OpenCV2 for access to the camera(s)
 
   And basic libraries: multiprocessing, time, and threading
 
