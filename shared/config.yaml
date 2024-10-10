@@ -1,0 +1,7 @@
+service-ips:
+    like: "localhost:63470"
+    auth: "localhost:63471"
+    get: "localhost:63472"
+    post: "localhost:63473"
+ 
+mongo-ip: "localhost:27017"

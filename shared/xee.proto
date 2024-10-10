@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+service Poster {
+  rpc PostXeet(PostXeetData) returns (Empty);
+}
+
+service Authenticator {
+  rpc AuthUser(AuthData) returns (AuthDetails);
+  rpc RevokeToken(UserData) returns (Empty);
+}
+
+service Retriever {
+  rpc RetrieveFeed(UserData) returns (Feed);
+}
+
+service Liker {
+  rpc Like(LikeData) returns (LikeUpdate);
+}
+
+message Empty {}
+
+message PostXeetData {
+	string token = 1;
+	string text = 2;
+}
+
+message AuthData {
+	string username = 1;
+}
+
+message AuthDetails {
+	string token = 1;
+}
+
+message UserData {
+	optional string token = 1;
+}
+
+message XeetData {
+	string id = 1;
+	string poster = 2;
+	string text = 3;
+	bool liked = 4;
+	int32 likes = 5;
+}
+
+message Feed {
+	repeated XeetData feed = 1;
+}
+
+message LikeData {
+	string token = 1;
+	string xeet_id = 2;
+	bool liked = 3;
+}
+
+message LikeUpdate {
+	bool success = 1;
+	int32 likes = 2;
+}
