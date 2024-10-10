@@ -18,7 +18,7 @@ For significantly more details, please refer to [this video](https://drive.googl
 
   And basic libraries: yaml, time and concurrent
 
-#Mind you, this project is expected to run on a Linux system
+# Mind you, this project is expected to run on a Linux system
 
 ## To install and run the whole project just run this code:
 ```
