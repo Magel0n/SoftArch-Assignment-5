@@ -14,7 +14,7 @@ For significantly more details, please refer to [this video](https://drive.googl
 1. tkinter
 2. GRPC
 3. MongoDB
-4. pymongo
+4. Pymongo
 
   And basic libraries: multiprocessing, time, and threading
 
