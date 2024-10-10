@@ -16,7 +16,7 @@ For significantly more details, please refer to [this video](https://drive.googl
 3. MongoDB
 4. Pymongo
 
-  And basic libraries: multiprocessing, time, and threading
+  And basic libraries: yaml, time and concurrent
 
 ## To install and run the whole project just run this code:
 ```
